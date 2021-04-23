@@ -1,4 +1,5 @@
 @import url(talleres.css);
+@import url(productos.css);
 
 
 
@@ -6,10 +7,27 @@
     margin: 0;
     padding: 0;
 }
+
+
+
+#navv{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+
+.carrusel{
+    padding-top: 77px;
+}
+
+
 .carrusel img{
     height: 250px;
    
 }
+
+
 
 .navbar-brand {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -19,7 +37,11 @@
     cursor: default;
     font-size: xx-large;
    text-shadow: 3px 2px 5px rgb(99, 99, 99);
+   
+   
 }
+
+
 
 ul{
     font-size: large;
@@ -41,13 +63,14 @@ ul{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-  margin: 10%;
+  margin: 7%;
+
     
 }
 
 .contenedor img{
     width: 35%;
-    height: 40vh;
+    height: 35vh;
     
 }
 

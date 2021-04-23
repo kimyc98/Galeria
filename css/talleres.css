@@ -18,7 +18,7 @@
     
 }
 
-#talleres .contenedor img{
+#talleres .contenedor-t img{
     width: 200px;
     height: 200px;
     
@@ -26,14 +26,14 @@
 }
 
 
-#talleres .contenedor{
+#talleres .contenedor-t{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-#talleres .contenedor article{
-    margin: 20px;
+#talleres .contenedor-t article{
+    margin: 40px;
 }
 
 
@@ -47,12 +47,15 @@
 
 #talleres a:hover{
     color: rgba(104, 104, 104, 0.568);
+
 }
 
 #talleres a h4{
     padding-top: 30px;
 }
 
-#talleres a img:hover{
-    transform: scaleX(1);
+article:hover{
+    
+    transform: translateY(-15px);
+    transition: all 0.25s;
 }
