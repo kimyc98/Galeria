@@ -22,9 +22,13 @@
     width: 200px;
     height: 200px;
     
+    
    
 }
 
+article{
+    padding: 25px;
+}
 
 #talleres .contenedor-t{
     display: flex;
@@ -54,8 +58,16 @@
     padding-top: 30px;
 }
 
+
 article:hover{
-    
-    transform: translateY(-15px);
-    transition: all 0.25s;
+   
+    transform: translateY(-20px);
+    transition: 1.5s;
+   
+ transform: scale(1.1);
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px rgba(99, 99, 99, 0.623) ;
+  border-bottom: outset 4px rgb(194, 158, 0);
+ 
 }
+
