@@ -12,19 +12,20 @@
 
 
 #navv{
-    position: fixed;
-    position: relative;
+    position:fixed;
     z-index: 100;
     width: 100%;
     
-    background-color: rgba(16, 2, 78, 0.253);
+   
 }
 
 
 
 
+
 .carrusel img{
-    height: 250px;
+    height: 300px;
+    padding-top: 74px;
    
 }
 
@@ -38,11 +39,10 @@
     cursor: default;
     font-size: xx-large;
    text-shadow: 3px 2px 5px rgb(99, 99, 99);
- 
+   
    
    
 }
-
 
 
 ul{
