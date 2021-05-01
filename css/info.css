@@ -1,18 +1,59 @@
-.contenedor-pro{
-
+.contenedor-pro {
+    background-image: url(../img/papel.png);
+    background-repeat: no-repeat ;
+    background-size: cover ;  
     
+}
+
+
+.contenedor-pro .marco{
+   
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 10% 20% 20% 20%;
-
-    background-image: url(../img/papel.png);
-    background-repeat: no-repeat ;
-    background-size: cover ;
-
-    
- 
- 
-
+    padding-top: 100px;
+    position: relative;
 }
+.contenedor-pro #imagen{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 70px 0px 40px 0px;
+    position: absolute;
+    
+}
+
+
+
+.row {
+    border-bottom: solid 5px chocolate;
+    margin: 55px 85px 0px 85px;
+}
+
+.row2 .col{
+    margin: 30px 85px 0px 95px;   
+}
+
+.row2 .col {
+    margin: 30px 85px 0px 95px;   
+}
+  span{
+    background: #073561;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 15px;
+    padding-bottom: 35px;
+ 
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+    margin-left: 2px;
+    
+}
+
+
+
+
 
