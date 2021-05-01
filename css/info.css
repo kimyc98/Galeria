@@ -1,0 +1,18 @@
+.contenedor-pro{
+
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10% 20% 20% 20%;
+
+    background-image: url(../img/papel.png);
+    background-repeat: no-repeat ;
+    background-size: cover ;
+
+    
+ 
+ 
+
+}
+
